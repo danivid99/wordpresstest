@@ -1,0 +1,24 @@
+.clase{
+	background-color: #0000300;
+	color:white;
+}
+
+.cabecera{
+	/*background: none repeat scroll 0 0 grey;*/
+}
+.table{
+  border: black 5px solid;
+  width: 100%;
+}
+.celda{
+	border: black 1px solid;
+}
+.table tr:nth-child(odd) {
+   background-color: #DDD;
+   color:#777
+}
+
+.table tr:nth-child(even) {
+   background-color: #666;
+   color:#FFF;
+}
